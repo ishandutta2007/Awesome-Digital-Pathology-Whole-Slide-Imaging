@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0d1b2a" />
+      <stop offset="100%" stop-color="#1b263b" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#253858" stroke-width="0.8" opacity="0.3" />
+    </pattern>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="50%" stop-color="#00bbf9" />
+      <stop offset="100%" stop-color="#9b5de5" />
+    </linearGradient>
+
+    <!-- Subtitle Gradient -->
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8f9fa" />
+      <stop offset="100%" stop-color="#dee2e6" />
+    </linearGradient>
+
+    <!-- Glowing Orb Gradients -->
+    <radialGradient id="orbGrad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbGrad2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9b5de5" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#9b5de5" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filter for subtle drop shadow on text -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <style>
+    .cell-pulse {
+      animation: pulse 4s ease-in-out infinite alternate;
+    }
+    .scanner-sweep {
+      animation: sweep 7s linear infinite;
+    }
+    .flow-dash {
+      stroke-dasharray: 6 6;
+      animation: dash 20s linear infinite;
+    }
+    .float-slow {
+      animation: float 6s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.95); opacity: 0.35; }
+      100% { transform: scale(1.08); opacity: 0.75; }
+    }
+    @keyframes sweep {
+      0% { transform: translateX(0px); opacity: 0.15; }
+      50% { transform: translateX(950px); opacity: 0.55; }
+      100% { transform: translateX(0px); opacity: 0.15; }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -1000; }
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- DYNAMIC BACKGROUND LAYER (Behind all titles) -->
+  <g opacity="0.8">
+    <!-- Animated Glowing Orbs -->
+    <circle cx="180" cy="120" r="140" fill="url(#orbGrad1)" class="cell-pulse" style="transform-origin: 180px 120px;" />
+    <circle cx="1020" cy="280" r="160" fill="url(#orbGrad2)" class="cell-pulse" style="transform-origin: 1020px 280px; animation-delay: -2s;" />
+
+    <!-- Simulated Histopathology Tissue Hexagonal Mesh & WSI Pyramidal Tiles -->
+    <g stroke="#00bbf9" stroke-width="1" fill="none" opacity="0.25">
+      <polygon points="980,60 1020,40 1060,60 1060,100 1020,120 980,100" />
+      <polygon points="1020,120 1060,100 1100,120 1100,160 1060,180 1020,160" />
+      <polygon points="1060,60 1100,40 1140,60 1140,100 1100,120 1060,100" />
+      <polygon points="940,100 980,80 1020,100 1020,140 980,160 940,140" />
+      
+      <!-- Slide Chamber outline left -->
+      <rect x="70" y="240" width="130" height="130" rx="10" stroke="#00f5d4" stroke-width="1.2" opacity="0.3" />
+      <rect x="85" y="255" width="45" height="45" fill="#00f5d4" opacity="0.08" />
+      <rect x="135" y="255" width="45" height="45" fill="#00bbf9" opacity="0.12" />
+      <rect x="85" y="305" width="45" height="45" fill="#9b5de5" opacity="0.1" />
+      <rect x="135" y="305" width="45" height="45" fill="#f15bb5" opacity="0.08" />
+    </g>
+
+    <!-- Dynamic Flow Lines -->
+    <path d="M 60 210 Q 300 340, 600 210 T 1140 210" fill="none" stroke="#00bbf9" stroke-width="1.5" opacity="0.25" class="flow-dash" />
+    <path d="M 60 230 Q 350 90, 650 230 T 1140 230" fill="none" stroke="#9b5de5" stroke-width="1.2" opacity="0.2" class="flow-dash" style="animation-direction: reverse;" />
+
+    <!-- Scanner Laser Sweep (Moving dynamic element across the slide) -->
+    <g class="scanner-sweep">
+      <line x1="120" y1="20" x2="120" y2="400" stroke="#00f5d4" stroke-width="2" opacity="0.4" />
+      <line x1="120" y1="20" x2="120" y2="400" stroke="#00f5d4" stroke-width="8" opacity="0.08" />
+    </g>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Guaranteed pristine contrast & clear legibility -->
+  <g filter="url(#shadow)">
+    <!-- Top Category Label -->
+    <g class="float-slow">
+      <rect x="425" y="42" width="350" height="32" rx="16" fill="#14213d" stroke="#00f5d4" stroke-width="1.2" opacity="0.95"/>
+      <text x="600" y="63" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#00f5d4" letter-spacing="2" text-anchor="middle">
+        🔬 GIGAPIXEL HISTOPATHOLOGY &amp; AI
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="url(#titleGrad)" letter-spacing="-0.5" text-anchor="middle">
+      Awesome Digital Pathology
+    </text>
+    <text x="600" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#ffffff" letter-spacing="1" text-anchor="middle">
+      &amp; Whole-Slide Imaging (WSI)
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="600" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="url(#subGrad)" letter-spacing="0.5" text-anchor="middle">
+      The Curated Ecosystem of Computational Pathology AI, Pyramidal Slide Viewers &amp; Enterprise SaaS
+    </text>
+
+    <!-- Feature Badges/Pills Row -->
+    <g transform="translate(185, 290)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="38" rx="8" fill="#1b263b" stroke="#00bbf9" stroke-width="1.2" />
+        <text x="90" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e0e1dd" text-anchor="middle">⚡ DeepZoom &amp; DICOM WSI</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(205, 0)">
+        <rect width="210" height="38" rx="8" fill="#1b263b" stroke="#9b5de5" stroke-width="1.2" />
+        <text x="105" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e0e1dd" text-anchor="middle">🧬 Cell / Nuclei Segmentation</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(440, 0)">
+        <rect width="180" height="38" rx="8" fill="#1b263b" stroke="#00f5d4" stroke-width="1.2" />
+        <text x="90" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e0e1dd" text-anchor="middle">🤖 MIL Foundation Models</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(645, 0)">
+        <rect width="185" height="38" rx="8" fill="#1b263b" stroke="#f15bb5" stroke-width="1.2" />
+        <text x="92" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#e0e1dd" text-anchor="middle">🏥 Clinical IMS &amp; Telepathology</text>
+      </g>
+    </g>
+
+    <!-- Bottom Footer Meta inside Banner -->
+    <text x="600" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#778da9" letter-spacing="1.5" text-anchor="middle">
+      CURATED DIRECTORY • OPEN-SOURCE RUNTIMES • COMMERCIAL SOLUTIONS • REGULARLY UPDATED
+    </text>
+  </g>
+</svg>
