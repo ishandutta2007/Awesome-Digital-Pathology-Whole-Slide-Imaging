@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging?style=flat-square&color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging/pulls"><img src="https://img.shields.io/github/issues-pr/ishandutta2007/Awesome-Digital-Pathology-Whole-Slide-Imaging?style=flat-square&color=green" alt="Pull Requests" /></a>
@@ -89,81 +89,81 @@ Below is a structured analysis of enterprise cloud platforms, clinical IMS vendo
 
 ## 💻 Open-Source GitHub Projects
 
-Explore the open-source digital pathology ecosystem, sorted strictly by **GitHub Star Count (descending)**. Every project includes live social badges linking to its stargazer community.
+Explore the open-source digital pathology ecosystem, sorted strictly by **GitHub Stars_Count (descending)**. Every project includes live social badges linking to its stargazer community.
 
-- **[libvips](https://github.com/libvips/libvips)** [![GitHub stars](https://img.shields.io/github/stars/libvips/libvips?style=social&color=white)](https://github.com/libvips/libvips/stargazers)  
+- **[libvips](https://github.com/libvips/libvips)** [![GitHub_Stars](https://img.shields.io/github/stars/libvips/libvips?style=social&color=white)](https://github.com/libvips/libvips/stargazers)  
   ⚡ *Ultra-fast, low-memory demand-driven C/C++ image processing engine.* Widely used by pathology slide servers and cloud pipelines to generate Deep Zoom (DZI), pyramidal TIFFs, and OME-TIFFs from gigapixel histology slides.
 
-- **[MONAI](https://github.com/Project-MONAI/MONAI)** [![GitHub stars](https://img.shields.io/github/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers)  
+- **[MONAI](https://github.com/Project-MONAI/MONAI)** [![GitHub_Stars](https://img.shields.io/github/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers)  
   🩺 *The premier PyTorch-based open-source framework for healthcare AI.* Features dedicated whole-slide imaging modules (`monai.apps.pathology`) for tumor segmentation, patch-level multiple instance inference, and multi-scale tissue training.
 
-- **[OpenSeadragon](https://github.com/openseadragon/openseadragon)** [![GitHub stars](https://img.shields.io/github/stars/openseadragon/openseadragon?style=social&color=white)](https://github.com/openseadragon/openseadragon/stargazers)  
+- **[OpenSeadragon](https://github.com/openseadragon/openseadragon)** [![GitHub_Stars](https://img.shields.io/github/stars/openseadragon/openseadragon?style=social&color=white)](https://github.com/openseadragon/openseadragon/stargazers)  
   🔍 *The industry-standard pure JavaScript web viewer for high-resolution zoomable images.* Powers smooth pan-and-zoom visualization of gigapixel histopathology slides and DeepZoom pyramids across modern web browsers.
 
-- **[napari](https://github.com/napari/napari)** [![GitHub stars](https://img.shields.io/github/stars/napari/napari?style=social&color=white)](https://github.com/napari/napari/stargazers)  
+- **[napari](https://github.com/napari/napari)** [![GitHub_Stars](https://img.shields.io/github/stars/napari/napari?style=social&color=white)](https://github.com/napari/napari/stargazers)  
   🖼️ *Fast, interactive multi-dimensional bioimage viewer in Python.* Backed by Qt and VisPy, supporting extensions like `napari-lazy-openslide` and `napari-spatialdata` for exploring multiplexed immunofluorescence and gigapixel tissue sections.
 
-- **[CLAM](https://github.com/mahmoodlab/CLAM)** [![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/CLAM?style=social&color=white)](https://github.com/mahmoodlab/CLAM/stargazers)  
+- **[CLAM](https://github.com/mahmoodlab/CLAM)** [![GitHub_Stars](https://img.shields.io/github/stars/mahmoodlab/CLAM?style=social&color=white)](https://github.com/mahmoodlab/CLAM/stargazers)  
   🤖 *Pioneering weakly supervised Multiple Instance Learning (MIL) framework.* Clustering-constrained Attention Multiple Instance Learning for whole-slide disease classification, subtyping, and attention heatmap generation without pixel annotations.
 
-- **[QuPath](https://github.com/qupath/qupath)** [![GitHub stars](https://img.shields.io/github/stars/qupath/qupath?style=social&color=white)](https://github.com/qupath/qupath/stargazers)  
+- **[QuPath](https://github.com/qupath/qupath)** [![GitHub_Stars](https://img.shields.io/github/stars/qupath/qupath?style=social&color=white)](https://github.com/qupath/qupath/stargazers)  
   🔬 *The gold-standard cross-platform bioimage analysis desktop suite for digital pathology.* Fluid gigapixel slide navigation, cell/nuclei detection, machine-learning pixel classification, TMA dearraying, and Groovy/Python script automation.
 
-- **[StarDist](https://github.com/stardist/stardist)** [![GitHub stars](https://img.shields.io/github/stars/stardist/stardist?style=social&color=white)](https://github.com/stardist/stardist/stargazers)  
+- **[StarDist](https://github.com/stardist/stardist)** [![GitHub_Stars](https://img.shields.io/github/stars/stardist/stardist?style=social&color=white)](https://github.com/stardist/stardist/stargazers)  
   🎯 *Deep learning star-convex object detection for 2D/3D microscopy and histology.* De facto standard for nuclear instance segmentation in dense H&E and multi-channel immunofluorescence whole-slide images.
 
-- **[UNI](https://github.com/mahmoodlab/UNI)** [![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/UNI?style=social&color=white)](https://github.com/mahmoodlab/UNI/stargazers)  
+- **[UNI](https://github.com/mahmoodlab/UNI)** [![GitHub_Stars](https://img.shields.io/github/stars/mahmoodlab/UNI?style=social&color=white)](https://github.com/mahmoodlab/UNI/stargazers)  
   🧠 *General-purpose pathology foundation model (Nature Medicine).* Pre-trained on 100M+ gigapixel histopathology tissue patches via self-supervised learning, excelling at pan-cancer diagnostic classification and cellular phenotyping across 30+ clinical tasks.
 
-- **[HoVer-Net](https://github.com/vqdang/hover_net)** [![GitHub stars](https://img.shields.io/github/stars/vqdang/hover_net?style=social&color=white)](https://github.com/vqdang/hover_net/stargazers)  
+- **[HoVer-Net](https://github.com/vqdang/hover_net)** [![GitHub_Stars](https://img.shields.io/github/stars/vqdang/hover_net?style=social&color=white)](https://github.com/vqdang/hover_net/stargazers)  
   🧬 *Simultaneous nuclear instance segmentation and cell-type classification.* Utilizes horizontal and vertical distance gradients to separate overlapping nuclei and classify lymphocytes, epithelial, stromal, and necrotic cells in H&E WSIs.
 
-- **[TRIDENT](https://github.com/mahmoodlab/TRIDENT)** [![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/TRIDENT?style=social&color=white)](https://github.com/mahmoodlab/TRIDENT/stargazers)  
+- **[TRIDENT](https://github.com/mahmoodlab/TRIDENT)** [![GitHub_Stars](https://img.shields.io/github/stars/mahmoodlab/TRIDENT?style=social&color=white)](https://github.com/mahmoodlab/TRIDENT/stargazers)  
   🛠️ *Scalable computational pathology preprocessing toolkit.* Automates multi-resolution tissue segmentation, pen-marking and artifact filtering, and high-throughput patch tiling across gigapixel slide cohorts.
 
-- **[Prov-GigaPath](https://github.com/prov-gigapath/prov-gigapath)** [![GitHub stars](https://img.shields.io/github/stars/prov-gigapath/prov-gigapath?style=social&color=white)](https://github.com/prov-gigapath/prov-gigapath/stargazers)  
+- **[Prov-GigaPath](https://github.com/prov-gigapath/prov-gigapath)** [![GitHub_Stars](https://img.shields.io/github/stars/prov-gigapath/prov-gigapath?style=social&color=white)](https://github.com/prov-gigapath/prov-gigapath/stargazers)  
   🌐 *Whole-slide pathology foundation model by Providence & Microsoft Research (Nature).* Pre-trained on 1.3 billion pathology tiles from over 170,000 clinical whole-slide images for slide-level biomarker prediction and subtyping.
 
-- **[TIAToolbox](https://github.com/TissueImageAnalytics/tiatoolbox)** [![GitHub stars](https://img.shields.io/github/stars/TissueImageAnalytics/tiatoolbox?style=social&color=white)](https://github.com/TissueImageAnalytics/tiatoolbox/stargazers)  
+- **[TIAToolbox](https://github.com/TissueImageAnalytics/tiatoolbox)** [![GitHub_Stars](https://img.shields.io/github/stars/TissueImageAnalytics/tiatoolbox?style=social&color=white)](https://github.com/TissueImageAnalytics/tiatoolbox/stargazers)  
   🧰 *Comprehensive computational pathology suite from the Warwick TIA Centre.* Offers end-to-end Python APIs for multi-vendor WSI loading, tissue masking, stain normalization (Macenko, Vahadane), patch extraction, and pre-trained classification models.
 
-- **[OpenSlide](https://github.com/openslide/openslide)** [![GitHub stars](https://img.shields.io/github/stars/openslide/openslide?style=social&color=white)](https://github.com/openslide/openslide/stargazers)  
+- **[OpenSlide](https://github.com/openslide/openslide)** [![GitHub_Stars](https://img.shields.io/github/stars/openslide/openslide?style=social&color=white)](https://github.com/openslide/openslide/stargazers)  
   📄 *Foundational C library for vendor-neutral digital pathology.* Provides an efficient, uniform interface for reading multi-resolution pyramidal slide formats including Aperio (`.svs`), Hamamatsu (`.ndpi`), Leica (`.scn`), MIRAX (`.mrxs`), and generic tiled TIFFs.
 
-- **[histolab](https://github.com/histolab/histolab)** [![GitHub stars](https://img.shields.io/github/stars/histolab/histolab?style=social&color=white)](https://github.com/histolab/histolab/stargazers)  
+- **[histolab](https://github.com/histolab/histolab)** [![GitHub_Stars](https://img.shields.io/github/stars/histolab/histolab?style=social&color=white)](https://github.com/histolab/histolab/stargazers)  
   🧪 *Reproducible Python library for digital pathology image preprocessing.* Offers intuitive pipelines for tissue localization, background removal, random/grid tile extraction, and slide thumbnail generation.
 
-- **[HistoQC](https://github.com/choosehappy/HistoQC)** [![GitHub stars](https://img.shields.io/github/stars/choosehappy/HistoQC?style=social&color=white)](https://github.com/choosehappy/HistoQC/stargazers)  
+- **[HistoQC](https://github.com/choosehappy/HistoQC)** [![GitHub_Stars](https://img.shields.io/github/stars/choosehappy/HistoQC?style=social&color=white)](https://github.com/choosehappy/HistoQC/stargazers)  
   🔍 *Automated quality-control pipeline for digital pathology cohorts.* Detects out-of-focus blur, glass slide pen marks, air bubbles, coverslip folds, and batch staining variations across large-scale WSI studies.
 
-- **[HistoCartography](https://github.com/BiomedSciAI/histocartography)** [![GitHub stars](https://img.shields.io/github/stars/BiomedSciAI/histocartography?style=social&color=white)](https://github.com/BiomedSciAI/histocartography/stargazers)  
+- **[HistoCartography](https://github.com/BiomedSciAI/histocartography)** [![GitHub_Stars](https://img.shields.io/github/stars/BiomedSciAI/histocartography?style=social&color=white)](https://github.com/BiomedSciAI/histocartography/stargazers)  
   🕸️ *Graph analytics and cell topology toolkit for computational pathology.* Converts histological tissue architecture into cell graphs and tissue networks for graph neural network (GNN) modeling and spatial biology discovery.
 
-- **[deep-histopath](https://github.com/CODAIT/deep-histopath)** [![GitHub stars](https://img.shields.io/github/stars/CODAIT/deep-histopath?style=social&color=white)](https://github.com/CODAIT/deep-histopath/stargazers)  
+- **[deep-histopath](https://github.com/CODAIT/deep-histopath)** [![GitHub_Stars](https://img.shields.io/github/stars/CODAIT/deep-histopath?style=social&color=white)](https://github.com/CODAIT/deep-histopath/stargazers)  
   🔬 *Deep learning reference pipeline for histopathologic lymph node metastasis classification.* Built on TensorFlow for automated detection of metastatic breast cancer lesions in whole-slide lymph node sections.
 
-- **[SLIM](https://github.com/ImagingDataCommons/slim)** [![GitHub stars](https://img.shields.io/github/stars/ImagingDataCommons/slim?style=social&color=white)](https://github.com/ImagingDataCommons/slim/stargazers)  
+- **[SLIM](https://github.com/ImagingDataCommons/slim)** [![GitHub_Stars](https://img.shields.io/github/stars/ImagingDataCommons/slim?style=social&color=white)](https://github.com/ImagingDataCommons/slim/stargazers)  
   🌐 *Zero-footprint web viewer for DICOM Whole Slide Imaging.* Open-source web platform for visualizing DICOM microscopy images, structured annotations, algorithm heatmaps, and DICOMweb federated archives.
 
-- **[Patch-GCN](https://github.com/mahmoodlab/Patch-GCN)** [![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/Patch-GCN?style=social&color=white)](https://github.com/mahmoodlab/Patch-GCN/stargazers)  
+- **[Patch-GCN](https://github.com/mahmoodlab/Patch-GCN)** [![GitHub_Stars](https://img.shields.io/github/stars/mahmoodlab/Patch-GCN?style=social&color=white)](https://github.com/mahmoodlab/Patch-GCN/stargazers)  
   📊 *Context-aware survival prediction using patch-based Graph Convolutional Networks (MICCAI).* Models spatial interrelationships among tissue regions to predict cancer patient outcomes from gigapixel slides.
 
-- **[Digital Slide Archive (DSA) & HistomicsUI](https://github.com/DigitalSlideArchive/digital_slide_archive)** [![GitHub stars](https://img.shields.io/github/stars/DigitalSlideArchive/digital_slide_archive?style=social&color=white)](https://github.com/DigitalSlideArchive/digital_slide_archive/stargazers)  
+- **[Digital Slide Archive (DSA) & HistomicsUI](https://github.com/DigitalSlideArchive/digital_slide_archive)** [![GitHub_Stars](https://img.shields.io/github/stars/DigitalSlideArchive/digital_slide_archive?style=social&color=white)](https://github.com/DigitalSlideArchive/digital_slide_archive/stargazers)  
   🖥️ *Full-stack enterprise web slide management & analysis platform.* Powered by Girder and `large_image`, enabling web-based multi-gigapixel slide streaming, user annotation tools, and server-side Docker algorithm orchestration.
 
-- **[pathology-whole-slide-data](https://github.com/DIAGNijmegen/pathology-whole-slide-data)** [![GitHub stars](https://img.shields.io/github/stars/DIAGNijmegen/pathology-whole-slide-data?style=social&color=white)](https://github.com/DIAGNijmegen/pathology-whole-slide-data/stargazers)  
+- **[pathology-whole-slide-data](https://github.com/DIAGNijmegen/pathology-whole-slide-data)** [![GitHub_Stars](https://img.shields.io/github/stars/DIAGNijmegen/pathology-whole-slide-data?style=social&color=white)](https://github.com/DIAGNijmegen/pathology-whole-slide-data/stargazers)  
   ⚡ *High-speed whole-slide data reader and batch iterator.* Designed by the Radboud Diagnostic Image Analysis Group (DIAG) to rapidly stream annotated WSI patches directly into deep-learning training loops.
 
-- **[marugoto](https://github.com/KatherLab/marugoto)** [![GitHub stars](https://img.shields.io/github/stars/KatherLab/marugoto?style=social&color=white)](https://github.com/KatherLab/marugoto/stargazers)  
+- **[marugoto](https://github.com/KatherLab/marugoto)** [![GitHub_Stars](https://img.shields.io/github/stars/KatherLab/marugoto?style=social&color=white)](https://github.com/KatherLab/marugoto/stargazers)  
   🧬 *Deep-learning toolbox for digital biomarker prediction from histology.* End-to-end framework for predicting gene mutations, microsatellite instability (MSI), and patient survival directly from routine H&E whole-slide images.
 
-- **[TiffSlide](https://github.com/Bayer-Group/tiffslide)** [![GitHub stars](https://img.shields.io/github/stars/Bayer-Group/tiffslide?style=social&color=white)](https://github.com/Bayer-Group/tiffslide/stargazers)  
+- **[TiffSlide](https://github.com/Bayer-Group/tiffslide)** [![GitHub_Stars](https://img.shields.io/github/stars/Bayer-Group/tiffslide?style=social&color=white)](https://github.com/Bayer-Group/tiffslide/stargazers)  
   ☁️ *Cloud-native `tifffile`-based drop-in replacement for OpenSlide Python.* Developed by Bayer, enabling zero-copy NumPy array loading, S3/GCS remote streaming via `fsspec`, and memory-efficient slide parsing.
 
-- **[WSIDicom](https://github.com/imi-bigpicture/wsidicom)** [![GitHub stars](https://img.shields.io/github/stars/imi-bigpicture/wsidicom?style=social&color=white)](https://github.com/imi-bigpicture/wsidicom/stargazers)  
+- **[WSIDicom](https://github.com/imi-bigpicture/wsidicom)** [![GitHub_Stars](https://img.shields.io/github/stars/imi-bigpicture/wsidicom?style=social&color=white)](https://github.com/imi-bigpicture/wsidicom/stargazers)  
   🏥 *Python library for DICOM Whole Slide Imaging interoperability.* Reads, decodes, tiles, and converts vendor proprietary slides into standardized DICOM WSI objects for PACS integration and European Bigpicture initiatives.
 
-- **[Cytomine](https://github.com/cytomine/cytomine)** [![GitHub stars](https://img.shields.io/github/stars/cytomine/cytomine?style=social&color=white)](https://github.com/cytomine/cytomine/stargazers)  
+- **[Cytomine](https://github.com/cytomine/cytomine)** [![GitHub_Stars](https://img.shields.io/github/stars/cytomine/cytomine?style=social&color=white)](https://github.com/cytomine/cytomine/stargazers)  
   🤝 *Collaborative open-source bioimaging web ecosystem.* Enables distributed teams to annotate gigapixel pathology slides with shared ontologies, review consensus diagnoses, and execute containerized computer vision models via REST APIs.
 
 ---
@@ -179,7 +179,7 @@ We actively welcome contributions from clinical pathologists, computer vision re
    ```
 3. 📝 **Add or update an entry** in `README.md` following our structured standard:
    - Tool/Platform name with official hyperlink.
-   - For open-source repos: include the official GitHub star badge linking to `/stargazers`.
+   - For open-source repos: include the official GitHub Stars_Badge linking to `/stargazers`.
    - Concise 1–2 sentence description of key technical capabilities and target formats.
    - For SaaS tools: include starting tier pricing and specific trial limits.
 4. 📬 **Submit a Pull Request** with a brief summary of why the addition benefits the digital pathology community.
